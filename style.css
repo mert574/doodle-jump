@@ -1,0 +1,24 @@
+html {
+	background-color: #051a1f;
+	color: #eee;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	font: 16px 'Hack';
+	padding: 20px 0;
+}
+
+canvas {
+	border:1px solid #cc0;
+	border-radius: 6px;
+}
+
+p {
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer {
+	color: #ddd;
+	text-align: right;
+}

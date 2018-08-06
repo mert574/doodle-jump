@@ -1,0 +1,15 @@
+{
+  "name": "doodle-jump",
+  "version": "1.0.0",
+  "description": "A doodle jump game basics using only JS/Canvas.",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^9.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/serve ."
+  },
+  "author": "IRL",
+  "license": "MIT"
+}

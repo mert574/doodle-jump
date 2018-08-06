@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doodle Jump</title>
+	<style>
+		#loading {
+			position: absolute;
+			top:0; bottom: 0;
+			left: 0; right: 0;
+			background-color: cadetblue;
+			display: grid;
+			align-items: center;
+  			justify-content: center;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="loading"><div>Loading</div></div>
+	<canvas id="canvas" width="400" height="800"></canvas>
+
+	<p id="desc">
+		<b>Move:</b> W A S D -OR- Arrow Keys and Space
+	</p>
+
+	<footer>
+		2018 - Mert
+	</footer>
+	<script type="module" src="js/main.js"></script>
+</body>
+</html>
